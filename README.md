@@ -1,6 +1,6 @@
 # Generator runners
 
-> Generators are part of the [modern JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators)
+> You can read [my article about generators](http://blog.bloomca.me/2017/12/19/how-to-use-generators.html)
 
 This repository contains different generator runners. Usually, if you encounter generators in the wild, it is either [koa.js](http://koajs.com/) (or [co](https://github.com/tj/co) itself), or attempts to get [async/await syntax](https://github.com/tc39/ecmascript-asyncawait) before standartizing.
 
