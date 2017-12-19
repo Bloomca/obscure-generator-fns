@@ -11,6 +11,10 @@ Implemented runners:
 - Pause/resume [example](./examples/pause.js) | [source code](./runners/pause.js)
 - Cancel example | [source code](./runners/cancel.js)
 
+## Why obscure?
+
+Because they are not very common to typical codebases – it makes them weird automatically :) No worries, though – in case it fits your use-case perfectly, take it and adapt to your scenario.
+
 ## License
 
 MIT
