@@ -12,6 +12,14 @@ Implemented runners:
 - **Ignore errors** [example](./examples/ignoreErrors.js) | [source code](./runners/ignoreErrors.js)
 - **Cancel example** | [source code](./runners/cancel.js)
 
+You can run these example using following commands:
+
+```sh
+npm run example:batch
+npm run example:pause
+npm run example:ignoreErrors
+```
+
 ## Why obscure?
 
 Because they are not very common to typical codebases – it makes them weird automatically :) No worries, though – in case it fits your use-case perfectly, take it and adapt to your scenario.

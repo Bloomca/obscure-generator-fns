@@ -27,7 +27,7 @@ module.exports = function runWithBatch(chunk, fn, ...args) {
       if (num++ % chunk === 0) {
         // we wait 1s just to demonstrate, in practice
         // 10ms is more than enough
-        return sleep(1000).then(proceed);
+        return sleep(1500).then(proceed);
       } else {
         return proceed();
       }

@@ -1,8 +1,12 @@
 const batchRunner = require("../runners/batch");
 
-batchRunner(5, function*() {
+console.log("Starting batching job:");
+console.log("=====================================================");
+console.log("");
+
+batchRunner(3, function*() {
   for (let i = 0; i < 20; i++) {
-    console.log(i);
     yield i;
+    console.log("Executing synchronous code, result is: ", i);
   }
 });

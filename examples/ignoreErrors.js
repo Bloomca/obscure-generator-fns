@@ -5,7 +5,7 @@ function sleep(amount) {
 }
 
 async function executeRandomly() {
-  await sleep(200);
+  await sleep(1000);
 
   const shouldThrow = Math.random() > 0.8;
 
@@ -15,6 +15,10 @@ async function executeRandomly() {
 
   return Math.random() * 100;
 }
+
+console.log("Start to execute job with ignoring all errors");
+console.log("=====================================================");
+console.log("");
 
 runWithIgnore(function*() {
   for (;;) {
